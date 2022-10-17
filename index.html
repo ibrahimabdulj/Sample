@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="imgBx">
+        <img
+          src="https://uploads-ssl.webflow.com/606c1bd6b947503e4c755fe2/606c20478671192ef5a51ff0_fs-logo.svg"
+        />
+      </div>
+      <div class="formBx">
+        <h2>Login</h2>
+        <div class="inputBx">
+          <p>Email</p>
+          <input type="email" placeholder="Enter Email" />
+        </div>
+        <div class="inputBx">
+          <p>Password</p>
+          <input type="password" placeholder="Enter Password" />
+        </div>
+        <a href="#">Login</a>
+      </div>
+    </div>
+  </body>
+  <script>
+    function checkA() {
+      let string = "adfadfaf";
+      let fst= string.indexOf("a");
+      let sec= string.LastindexOf("a");
+
+      for (let i= fst; i<= sec;i++){
+          console.log(string.includes('a'))
+      }
+
+      // string.map((str) => {
+      //   console.log(str);
+      // });
+      // for (let i = 0; i < string.length; i++) {
+      //   console.log(string);
+      //   return;
+      // }
+    }
+    console.log(checkA());
+  </script>
+</html>
